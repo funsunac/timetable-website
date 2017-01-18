@@ -21,11 +21,13 @@ def index(request, prog_name):
     else:
         course_list = [course.code for course in Course.objects.filter(programs__title=prog_name)]
 
-    if len(queries) == 0:
+    # Need to fix this later. Switched to python3 now idk what to do.
+    _queries = list(queries)
+    if len(_queries)== 0:
         class_list = Master.objects.filter(course_code__in=course_list)
     else:
         kwargs = {}
-        for key, arg in queries:
+        for key, arg in _queries:
             if key == 'venue':
                 kwargs[dict[key] + '__in'] = arg
             kwargs[dict[key]+'__in'] = arg
