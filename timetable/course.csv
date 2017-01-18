@@ -1,0 +1,183 @@
+id,code,name
+1,CCAH 4001,Arts Appreciation
+2,CCAH 4003,Design for Brands
+3,CCAH 4004,From Revolution to Modernisation: A History of Modern China
+4,CCAH 4005,Introduction to Aesthetics
+5,CCAH 4007,"Politics, Peoples and Cultures: The Making of a Globalising World since 1945"
+6,CCAH 4008,The Process of Theatre Making
+7,CCAH 4009,Visual Arts in Contexts
+8,CCAH 4010,From A Barren Rock to Asia's World City: A History of Modern Hong Kong
+9,CCBS 3002,Elements of Business
+10,CCBS 4002,Corporate and Business Law
+11,CCBS 4005,Introduction to Financial Accounting
+12,CCBS 4006,Introduction to Financial Management
+13,CCBS 4007,Introduction to Management
+14,CCBS 4008,Introduction to Marketing
+15,CCBS 4009,Microeconomics: Theory and Applications
+16,CCBS 4011,Global Business and Trade
+17,CCBS 4014,Economics of Public Issues
+18,CCBS 4015,Strategic Brand Management
+19,CCBS 4017,Principles of Auditing
+20,CCBS 4019,Economics and the Society
+21,CCBS 5005,Principles of Organizational Behaviour
+22,CCBS 5007,Investments and Portfolio Management
+23,CCCH 3001,Foundations of Chinese Language
+24,CCCH 4002,Advanced Chinese for Business and Commerce
+25,CCCH 4003,Advanced Chinese Language
+26,CCCH 4004,Advanced Putonghua
+27,CCCH 4005,Classical Chinese Language
+28,CCCH 4006,Grammar and Rhetoric in Modern Chinese Language
+29,CCCH 4007,Introduction to Chinese Literary Criticism
+30,CCCH 4008,Introduction to Chinese Literature
+31,CCCH 4009,Introduction to Modern Chinese Literature
+32,CCCH 4010,Introduction to Translation
+33,CCCH 4011,Modern Chinese Language
+34,CCCH 4012,Practical Chinese
+35,CCCH 4013,Reading and Writing in Chinese
+36,CCCH 4014,Studies of Classical Texts
+37,CCCU 3002,Introduction to Intercultural Communication
+38,CCCU 4001,Introduction to Film Studies
+39,CCCU 4003,Understanding Culture and Everyday Life
+40,CCCU 4004,Global and Local Cultures
+41,CCCU 4005,Hong Kong and Chinese Societies in Transition
+42,CCCU 4006,Intercultural Communication and Competence
+43,CCCU 4007,Self-writing and Representation
+44,CCCU 4008,Introduction to Corporate Communications
+45,CCCU 4009,Public Relations Writing
+46,CCCU 4012,Special Issues in Corporate Communications and Management
+47,CCCU 4013,Introduction to Media and Communications
+48,CCCU 4015,Rethinking Popular Culture
+49,CCCU 4018,Fundamentals of Journalism
+50,CCCU 4019,Advertising: Principles and Practice
+51,CCCU 4021,Magazine Industry and Production in Hong Kong (CL01 + CT01)
+52,CCCU 4022,Creativity and Creative Industries
+53,CCCU 4028,Feature Journalism
+54,CCCU 4029,Project: Publishing and Media Practices
+55,CCCU 4030,News Writing and Translation
+56,CCCU 5001,Culture and Translation
+57,CCCU 5002,"Media, Society and Consumer Culture"
+58,CCEN 3003,General English II (Group 1)
+59,CCEN 3004,College Speaking
+60,CCEN 4004,English for Academic and Professional Purposes Part I
+61,CCEN 4005,English for Academic and Professional Purposes Part II
+62,CCEN 4006,Introduction to Comparative Literature
+63,CCEN 4008,Introduction to Linguistics
+64,CCEN 4009,Introductory Stylistics
+65,CCEN 4011,English for Business
+66,CCEN 4012,English for Arts and Humanities
+67,CCEN 4013,English for Science and Technology
+68,CCEN 4015,English for Healthcare Professionals
+69,CCEN 4016,Introduction to Applied Linguistics
+70,CCFN 4004,Insurance
+71,CCIT 4009,Introduction to Multimedia
+72,CCIT 4015,Management Information Systems
+73,CCIT 4016,Introduction to Data Structures and Algorithms
+74,CCIT 4021,Mathematics for Computing
+75,CCIT 4026,Introduction to Computer Organization
+76,CCIT 4029,Electromagnetic Theory and Applications
+77,CCIT 4032,Media Production Workshop
+78,CCIT 4054,Introduction to Electrical and Electronic Engineering
+79,CCIT 4057,Information Management
+80,CCIT 4058,Internet Programming
+81,CCIT 4059,Mobile Application Development
+82,CCIT 4064,Microcontrollers
+83,CCIT 4073,Information Technology and Applications
+84,CCJK 4001,Introduction to Japanese Studies
+85,CCJK 4003,Japanese II
+86,CCJK 4006,Introduction to Korean
+87,CCJK 4007,Contemporary Korean Society
+88,CCJK 4009,Korean II
+89,CCJK 4011,Contemporary Japanese Society
+90,CCLW 4002,Obligations I
+91,CCLW 4003,The Hong Kong Basic Law
+92,CCLW 4004,Business Associations and Commercial Practice
+93,CCLW 4006,Hong Kong Land Law and Conveyancing
+94,CCMA 3002,General Mathematics
+95,CCMA 4001,Quantitative Analysis I
+96,CCMA 4003,College Mathematics II
+97,CCMA 4004,Mathematics for Business
+98,CCMA 4006,Mathematics with Applications
+99,CCMA 4007,Quantitative Analysis II
+100,CCMA 4008,Mathematics and Statistics for Daily Life Applications
+101,CCMA 4009,Statistics for Business
+102,CCPA 4002,Introduction to Chinese Music
+103,CCPA 4004,Music in Western Civilization 1 (Ancient Greece to Early Baroque)
+104,CCPA 4005,Fundamentals of Tonal Music II
+105,CCPH 4001,Introduction to Philosophy
+106,CCPH 4002,Applied Ethics
+107,CCPH 4003,Elements of Logic and Critical Thinking
+108,CCPH 4004,Ideas that Shaped the Modern World
+109,CCSA 8002,Seminar Series
+110,CCSS 3002,Multiple Intelligences and Competencies
+111,CCSS 4001,Applied Psychology
+112,CCSS 4004,Intra- and Interpersonal Competencies
+113,CCSS 4005,Understanding Social Problems in Hong Kong (CL03 + CT13)
+114,CCSS 4007,Introduction to Political Science
+115,CCSS 4009,Introduction to Psychology (CL05 + CT25)
+116,CCSS 4010,Introduction to Criminology
+117,CCSS 4011,Global Governance and International Organizations
+118,CCSS 4012,Introduction to Chinese Politics
+119,CCSS 4015,Sociology of Health
+120,CCSS 4018,Sociology of Social Problems (CL02 + CT12)
+121,CCSS 4019,Social Policy and Administration
+122,CCSS 4020,Social Sciences Research Methods (CL03 + CT07)
+123,CCSS 4024,Introduction to Counseling
+124,CCSS 4025,Contemporary Social Work and Social Welfware
+125,CCSS 4026,Behavioural Sciences
+126,CCSS 4030,Human Behaviour and Social Environment
+127,CCSS 4033,Social Institutions and Everyday Life
+128,CCST 3004,The Science of Everyday Life
+129,CCST 4009,Energy and Environment
+130,CCST 4010,Food and Nutrition Basics
+131,CCST 4011,Biodiversity and Genetics
+132,CCST 4013,Introductory Organic Chemistry
+133,CCST 4015,"Fundamentals of Thermodynamics, Waves and Electromagnetism (CL01 + CT01)"
+134,CCST 4016,Food and the Body
+135,CCST 4017,Molecular Biology and Biochemistry
+136,CCST 4018,Cell Biology and Physiology
+137,CCST 4023,From Molecules to Cells
+138,CCST 4027,Pharmacology
+139,CCST 4028,Nursing Care of the Adult
+140,CCST 4029,Inorganic Chemistry I
+141,CCST 4030,Analytical Chemistry I
+142,CCST 4031,Introductory Physical Chemistry
+143,CCST 4035,Fluid/Solid Interactions in Earth Processes
+144,CCST 4039,Organic Chemistry I
+145,CCST 4040,Introductory Electricity and Magnetism
+146,CCST 4044,Planetary Geology
+147,CCST 4047,Fundamentals of Human Body Structure and Function
+148,CCST 4048,Introduction to Human Diseases: Pathology and Pathophysiology
+149,CCST 4050,Clinical Microbiology and Communicable Diseases
+150,CCST 4051,Fundamentals of Pharmacology
+151,CCST 4053,Clinical Nursing Care I
+152,CCST 4060,Evolutionary Diversity
+153,CCST 4062,Methods in Physics II
+154,CCST 4064,Elementary Statistical Methods
+155,CCST 4065,Blue Planet
+156,CCST 4074,Probability and Statistics I
+157,CCST 4077,Health Assessment
+158,CCST 4081,Modern Developments in Biotechnology
+159,CCST 4082,Biomedical Science
+160,CCST 4085,Biostatistics
+161,CCST 4086,Nature of Universe
+162,CCST 4087,Environmental Life Science
+163,CCST 4088,Demographic and Socio-Economic Statistics
+164,CCST 4091,Biological Sciences Laboratory Course
+165,CCST 4095,Introduction to Climate Science
+166,CCST 4096,Problem Solving in Physics
+167,CCST 4098,Introductory Mechanics
+168,CCST 4099,University Mathematics II
+169,CCST 4100,Statistics: Ideas and Concepts
+170,CCST 4101,General Chemistry I
+171,CCST 4102,Primary Health Care and Health Promotion
+172,CCST 4104,Clinical Nursing Care II
+173,CCST 4106,Specialty Nursing II
+174,CCST 4108,Professional Nursing
+175,CCST 4110,Multivariable Calculus and Linear Algebra
+176,CCST 4111,General Chemistry II
+177,CCST 4113,Nursing Practicum II
+178,CCST 4114,Geological Heritage of Hong Kong
+179,CCTL 4002,Comparative Study of Chinese and English
+180,CCTL 4003,Introduction to Interpretation: Cantonese/English
+181,CCTL 4004,Practical Translation I (Business and Commercial; Financial)
+182,CCTL 4005,Conference Interpreting: Cantonese/English

@@ -1,0 +1,82 @@
+{% load static %}
+<html>
+<head>
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/b-1.2.4/r-2.1.0/datatables.min.css"/>-->
+    <link rel="stylesheet" type="text/css" href="{% static 'table/style.css' %}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">-->
+</head>
+
+<div class="container-fluid">
+<body>
+<div class="page-header"><h2>Master Timetable for {{ prog_name }}</h2></div>
+
+<form method="GET">
+    <div class="form-group">
+         <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Program: {{ prog_name }} <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="{% url 'table:index' 'AEng' %}">AEng Yr 1</a></li>
+                <li><a href="{% url 'table:index' 'ASci' %}">ASci Yr 1</a></li>
+                <li><a href="{% url 'table:index' 'ASoSci' %}">ASoSci Yr 1</a></li>
+                <li><a href="{% url 'table:home' %}">All Programs (maybe slow, I dunno)</a></li>
+              </ul>
+         </div>
+        {{ filterForm }}
+        <button type="submit" class="btn btn-primary">Apply</button>
+        <a href="{% url 'table:index' prog_name %}" class="btn btn-danger">Clear All</a>
+    </div>
+</form>
+
+
+
+
+
+<table id="timetable" class="table table-striped table-condensed table-responsive table-bordered">
+    <thead>
+        <tr>
+            <!--<th>Course Code</th>-->
+            <th>Class</th>
+            <th>Course Name</th>
+            <th>Day</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Room</th>
+            <th>Lecturer</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for cl in class_list %}
+        <tr>
+            <!--<td>{{ cl.course_code }}</td>-->
+            <td>{{ cl.cl_no }}</td>
+            <td>{{ cl.course_name }}</td>
+            <td align="center">{{ cl.cl_day }}</td>
+            <td>{{ cl.cl_start_time|time:"H:i" }}</td>
+            <td>{{ cl.cl_end_time|time:"H:i" }}</td>
+            <td>{{ cl.cl_room }}</td>
+            <td>{{ cl.lecturer }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/b-1.2.4/r-2.1.0/datatables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script>
+<!--<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>-->
+<script src="{% static 'table/script.js' %}"></script>
+</body>
+</div>
+</html>
